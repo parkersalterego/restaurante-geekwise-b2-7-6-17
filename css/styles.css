@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300|Lobster|Playfair+Display:900');
+
+body {
+  position:relative;
+}
+
+/* main nav colors */
+.navbar-inverse{
+  border-color: transparent;
+  background-color: transparent;
+}
+
+/* li active*/
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+  background-color: rgba(8, 8, 8, .5)
+}
+
+/* li non active text */
+.navbar-nav>li>a {
+  color: #fa512f;
+  text-shadow: 1px 1px 2px #333;
+}
+
+/* li non active*/
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+  background-color: rgba(8, 8, 8, .25)
+  color: #fa512f;
+}
+
+/* carousel styles */
+
+.item {
+  height: 425px;
+  background-size:cover;
+  background-position:center;
+}
+
+#carousel-logo {
+  height:250px;
+  width:250px;
+  position: absolute;
+}
+
+#carousel-flex{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:100%;
+  width:100%;
+}
+
+#wood-bg {
+  background-image: url(../img/wood-2.jpg);
+  background-size:cover;
+  background-position:center;
+}
+
+#seating {
+  background-image: url(../img/restaurant-2.jpg);
+  background-size:cover;
+  background-position:center;
+}
+
+#farm {
+  background-image: url(../img/farm-2.jpg);
+  background-size:cover;
+  background-position:center;
+}
+
+#carousel-logo {
+  height: 250px;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 2px #333;
+}
+
+.carousel-caption {
+  margin-bottom:45px;
+}
+
+button.btn-warning{
+  border-color:#f8512f;
+  background-color:#f8512f;
+}
+
+button.btn-warning:hover{
+  border-color:#d34326;
+  background-color:#d34326;
+}
+
+/* our story styles*/
+.lobster-text{
+  font-family:'lobster', cursive;
+  color:#f8512f;
+  text-shadow: 1px 1px 2px #313;
+  text-size: 5em;
+}
+
+#our-story {
+  margin: 10px, 0;
+}
+
+#our-story h1{
+  margin-bottom: 0px;
+}
+
+#our-story .lobster-text{
+  color:#f8512f;
+}
+
+.year-text{
+  font-family:'Playfair Display',serif;
+  font-weight:900;
+  position: absolute;
+  z-index:-1;
+  font-size: 9em;
+}
+
+/* our story styles end*/
+/* review styles start */
+#review .lobster-text{
+  color:#f8512f;
+  text-shadow:1px 1px 2px #313;
+  font-size: 60px;
+}
+
+#review p{
+  color:#fff;
+  font-size:26px;
+  line-height:36px;
+  font-family:'lato',sans;
+  font-weight:300;
+}
+
+#review{
+  background-image: url(../img/food_review.jpg);
+  background-size:cover;
+  background-position:center;
+  background-attachment:fixed;
+  height:450px;
+}
+
+.fresno-bee {
+  background-color:rgba(0, 0, 0, .5);
+  border-radius:5px;
+  margin: 125px 0px 125px 0px;
+}
+
+.flex{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:450px;
+}
+/* review styles end */
+/**/
+ #menu {
+   background-image: url(../img/black_linen.png);
+   height:600px;
+ }
+
+ #menu h1 {
+   font-family: 'lobster',cursive;
+   color: #fff;
+
+ }
+
+ #menu a {
+   color: #f8512f;
+   text-transform:uppercase;
+ }
+ #menu a:hover {
+   cursor:pointer;
+   background-color:rgba(255, 255, 255, 0.2);
+   border: 1px solid rgba(255, 255, 255, 0.2);
+
+ }
+
+ .food {
+   background-color: #fff;
+   min-height:405px;
+   max-height:405px;
+   overflow:auto;
+   padding: 8px 12px 8px 12px;
+ }
+
+ .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+   color:#f8512f;
+ }
+
+ .nav-tabs>li.active>a:hover {
+   background-color:rgba(255, 255, 255, 0.2);
+   cursor:pointer;
+ }
+
+ .nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:focus, .nav-tabs.nav-justified>.active>a:hover {
+   border: 1px solid rgba(255, 255, 255, 0.2);
+ }
+ /**/
+/* contact styles */
+form {
+  width:35%;
+  float:left;
+  display:relative;
+  background-color:#ff6633;
+  border:1px solid white;
+  padding:15px;
+  margin-bottom:20px;
+}
+address {
+  position:absolute;
+  display:block;
+  margin-left:50%
+}
+
+iframe {
+  position:absolute;
+  display:block;
+  width:35%;
+  height:40%;
+  margin-left:50%;
+  margin-top:100px;
+}
+
+#contact {
+  background-color:#f8512f;
+  color:white;
+}
+
+#contact p{
+  margin-bottom:60px;
+}
+
+#contact h1{
+  font-family:;
+}
+.btn-large {
+  color:#000000;
+  border-color:#cccccc;
+  background-color:#fff;
+  width: calc(100%  /3);
+  margin-left: calc(100%  /3);
+}
+/* contact styles end */
