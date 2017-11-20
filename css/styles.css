@@ -94,7 +94,7 @@ button.btn-warning:hover{
   font-family:'lobster', cursive;
   color:#f8512f;
   text-shadow: 1px 1px 2px #313;
-  font-size: 5em;
+  text-size: 5em;
 }
 
 #our-story {
@@ -245,7 +245,3 @@ iframe {
 
 /* contact styles end */
 
-.padding-null {
-  padding: 0;
-  
-}
