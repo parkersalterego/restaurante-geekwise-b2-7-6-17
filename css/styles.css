@@ -243,6 +243,7 @@ iframe {
 /* contact styles end */
 
 .padding-null {
-  padding: 0;
+  padding-left: 0px;
+  padding-right: 0px;
 
 }
