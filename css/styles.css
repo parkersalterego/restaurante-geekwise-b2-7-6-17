@@ -23,7 +23,7 @@ body {
 
 /* li non active*/
 .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
-  background-color: rgba(8, 8, 8, .25)
+  background-color: rgba(8, 8, 8, .25);
   color: #fa512f;
 }
 
@@ -94,7 +94,7 @@ button.btn-warning:hover{
   font-family:'lobster', cursive;
   color:#f8512f;
   text-shadow: 1px 1px 2px #313;
-  text-size: 5em;
+  font-size: 5em;
 }
 
 #our-story {
@@ -232,9 +232,6 @@ iframe {
   margin-bottom:60px;
 }
 
-#contact h1{
-  font-family:;
-}
 .btn-large {
   color:#000000;
   border-color:#cccccc;
@@ -245,3 +242,7 @@ iframe {
 
 /* contact styles end */
 
+.padding-null {
+  padding: 0;
+
+}
